@@ -1,0 +1,52 @@
+{
+  "name": "lambdatest",
+  "version": "1.0.0",
+  "description": "Lambda Test Certification",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CosminGramada/LambdaTest.git"
+  },
+  "author": "Cosmin Gramada",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CosminGramada/LambdaTest/issues"
+  },
+  "homepage": "https://github.com/CosminGramada/LambdaTest#readme",
+  "dependencies": {
+    "selenium-webdriver": "^4.0.0-alpha.8"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/plugin-syntax-export-default-from": "^7.12.1",
+    "@babel/preset-env": "^7.12.11",
+    "@babel/register": "^7.12.10",
+    "@types/node": "^14.14.14",
+    "@typescript-eslint/eslint-plugin": "^4.10.0",
+    "@typescript-eslint/parser": "^4.10.0",
+    "@wdio/cli": "^6.10.11",
+    "@wdio/dot-reporter": "^6.10.6",
+    "@wdio/jasmine-framework": "^6.10.11",
+    "@wdio/local-runner": "^6.10.13",
+    "@wdio/spec-reporter": "^6.10.6",
+    "@wdio/sync": "^6.10.11",
+    "chromedriver": "^87.0.4",
+    "eslint": "^7.16.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^5.0.0",
+    "fs-extra": "^9.0.1",
+    "node-fetch": "^2.6.1",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.1.3",
+    "wdio-chromedriver-service": "^6.0.4",
+    "wdio-lambdatest-service": "^1.0.2"
+  }
+}
